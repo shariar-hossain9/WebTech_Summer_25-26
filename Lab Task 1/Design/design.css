@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 170px;
+}
+
+form{
+    width: 850px;
+    margin: 0 auto;
+}
+
+fieldset{
+    border: 2px solid #6678ff;
+    border-radius: 8px;
+    background-color: #f7f8ff;
+    padding: 35px 25px 25px 25px;
+}
+
+legend{
+    background: linear-gradient(to right, #6875e8, #7a49b8);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0px 22px;
+}
+
+td{
+    vertical-align: top;
+}
+
+td:nth-child(1){
+    width: 150px;
+}
+
+td:nth-child(2){
+    width: 250px;
+}
+
+td:nth-child(3){
+    width: 170px;
+    padding-left: 45px;
+}
+
+td:nth-child(4){
+    width: 250px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input{
+    width: 230px;
+    height: 38px;
+    box-sizing: border-box;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+    padding-left: 12px;
+    font-size: 14px;
+    background-color: white;
+}
+
+input::placeholder{
+    color: #9ca3af;
+}
+
+.button-area{
+    text-align: center;
+    margin-top: 25px;
+}
+
+input[type="submit"]{
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #6875e8, #7a49b8);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+    padding-left: 0px;
+}
+
+input[type="reset"]{
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    color: #1f2937;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 0px;
+}
