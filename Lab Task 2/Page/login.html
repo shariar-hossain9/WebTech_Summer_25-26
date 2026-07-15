@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../Design/design.css">
+    <script src="../JavaScript/Script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>Login Form</h2>
+
+        <form onsubmit="return login()">
+
+            <label>Username</label>
+            <input type="text" id="username">
+            <p id="UserError"></p>
+
+            <label>Password</label>
+            <input type="password" id="password">
+            <p id="PassError"></p>
+
+            <button type="submit">Login</button>
+
+            <p id="message"></p>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
